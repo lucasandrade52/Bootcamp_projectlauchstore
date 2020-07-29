@@ -108,9 +108,9 @@ const PhotosUpload = {
         return div
     },
     getRemoveButton() {
-        const  button = document.createElement('i')
-        button.classList.add('material-icons')
-        button.innerHTML = "close"
+        const  button = document.createElement('i');
+        button.classList.add('material-icons');
+        button.innerHTML = "close";
         return button
     },
     removePhoto(event) {
